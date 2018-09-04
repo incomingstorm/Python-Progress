@@ -5,9 +5,9 @@ number_to_guess = random.randint(1,10)
 
 while True:
   number_to_guess = random.randint(1,10)
-  while True: #guesses_takes < 6:
+  while True: 
     player_guess = int(input("Type in your guess: "))
-        #guesses_taken = guesses_taken - 1
+        
     if number_to_guess < player_guess :
       print ("Too high!")
     elif number_to_guess > player_guess :
